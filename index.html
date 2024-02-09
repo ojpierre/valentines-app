@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valentine's Day App</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Honk&family=Montserrat:wght@400;500;600&family=Poppins&family=Rethink+Sans&family=Urbanist:wght@100&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Audio element for the song -->
+    <audio id="background-music" src="Get You The Moon.mp3" type="audio/mpeg" autoplay loop async></audio>
+
+    </audio>
+
+    <div class="container">
+        <!-- Image container -->
+        <div class="image-container">
+            <img class="image" src="ask.gif" alt="Ask GIF">
+        </div>
+        <p id="peepee" class="question">Will you be my Valentine?😍😍</p>
+        <div class="button-container">
+            <button id="no-button" class="button" onclick="showMessage('No')">No</button>
+            <button id="yes-button" class="button" onclick="showMessage('Yes')">Yes</button>
+        </div>
+        <div class="message-container">
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
